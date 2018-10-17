@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<Button
+		android:id="@+id/btn_start"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="start"></Button>
+
+	<Button
+		android:id="@+id/btn_stop"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="stop"></Button>
+
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="Notes" />
+
+	<EditText
+		android:id="@+id/txt_recname"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></EditText>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="@string/city_prompt" />
+
+	<EditText
+		android:id="@+id/txt_city"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:inputType="textPersonName"
+		android:text="Graz" />
+
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="@string/category_prompt" />
+
+	<Spinner
+		android:id="@+id/spin_category"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:entries="@array/category_array"
+		android:prompt="@string/category_prompt" />
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="@string/position_prompt" />
+
+	<Spinner
+		android:id="@+id/spin_phone"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:entries="@array/position_array"
+		android:prompt="@string/position_prompt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/samplerate_prompt" />
+
+    <Spinner
+        android:id="@+id/spin_samplerate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/samplerate_string_array"
+        android:prompt="@string/samplerate_prompt"
+        android:splitMotionEvents="false" />
+
+	<TextView
+		android:id="@+id/lbl_timer"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="@string/timer_desc" />
+
+	<Button
+		android:id="@+id/btn_timer"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Set Timer" />
+
+	<CheckBox
+		android:id="@+id/chk_overwrite"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="overwrite on stop" />
+
+
+</LinearLayout>

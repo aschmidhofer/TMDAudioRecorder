@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TMD Audio Recorder</string>
+
+    <string name="category_prompt">Category</string>
+    <string-array name="category_array">
+        <item>None</item>
+        <item>Walking</item>
+        <item>Bike</item>
+        <item>Car</item>
+        <item>Bus</item>
+        <item>Coach</item>
+        <item>Tram</item>
+        <item>Metro</item>
+        <item>Train</item>
+        <item>Plane</item>
+    </string-array>
+    <string name="city_prompt">City</string>
+    <string name="phone_prompt">Phone</string>
+    <string name="position_prompt">Phone Position</string>
+    <string-array name="position_array">
+        <item></item>
+        <item>inHand</item>
+        <item>trousersFrontPocket</item>
+        <item>trousersBackPocket</item>
+        <item>jacket</item>
+        <item>lyingOpen</item>
+        <item>backpack</item>
+        <item>carrierBag</item>
+    </string-array>
+    <string name="samplerate_prompt">Sample Rate</string>
+    <integer-array name="samplerate_array">
+        <item>44100</item>
+        <item>22050</item>
+        <item>11025</item>
+        <item>8000</item>
+    </integer-array>
+    <string-array name="samplerate_string_array">
+        <item>44100</item>
+        <item>22050</item>
+        <item>11025</item>
+        <item>8000</item>
+    </string-array>
+    <string name="timer_prompt">Timer</string>
+    <string name="timer_desc">Auto-Stop Timer</string>
+    <integer-array name="timer_ms_array">
+        <item>0</item>
+        <item>7200000</item>
+        <item>3600000</item>
+        <item>1800000</item>
+        <item>600000</item>
+        <item>300000</item>
+        <item>60000</item>
+    </integer-array>
+    <string-array name="timer_string_array">
+        <item>No Timer</item>
+        <item>2h</item>
+        <item>1h</item>
+        <item>30min</item>
+        <item>10min</item>
+        <item>5min</item>
+        <item>1min</item>
+    </string-array>
+</resources>
